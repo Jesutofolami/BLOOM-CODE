@@ -1,0 +1,316 @@
+body{
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #187cc2;
+    background: white;
+    padding-bottom: 40px;
+}
+header h3{
+    font-family: "futura_1tbold",sans-serif;
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: normal;
+    font-style: normal;
+}
+nav ul{
+    margin-right: 50px;
+    margin-top: -65px;
+}
+nav ul li{
+    display: table;
+    list-style-type: none;
+    float: right;
+    padding-left: 30px;
+    font-family: "futura_1tbold", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+}
+nav a{
+    text-decoration: none;
+    color:#333;
+}
+nav a:hover{
+    background-color: #187cc2;
+    border: 20px solid #187cc2;
+    color: white;
+    font-weight: bold;
+}
+nav button{
+    background: #187cc2;
+    border-right: 10px solid #187cc2;
+    border-left: 10px solid #187cc2;
+    border-top: 1px solid #187cc2;
+    border-bottom: 1px solid #187cc2;
+    padding: 10px;
+    margin-top: -1px;
+    color: white;
+    font-size: 15px;
+}
+nav button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.button li{
+    display:inline;
+    padding: -30px;
+}
+.button1{
+    color: #333;
+    font-size: 15px;
+    margin-left: 60px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: "futura_1tbold",sans-serif;
+}
+.button2{
+    background-color: #187cc2;
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+    padding: 15px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-family: "futura_1tbold", sans-serif;
+}
+.button1:hover{
+    background-color: #187cc2;
+    color: white;
+    border: 1px solid #187cc2;
+}
+.button2:hover{
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+}
+.tool{
+    margin-top: 100px;
+}
+.tool img{
+    width: 100%;
+    height: 500px;
+    filter: opacity();
+    background: rgba(0,0,0,0.5) none repeat scroll 0 0;
+
+}
+.words h3{
+    font-size: 30px;
+    font-family: "futura_1tbold",sans-serif;
+    margin-top: 35px;
+    color: #187cc2;
+    margin-left: 540px;
+    font-weight: normal;
+    font-style: normal;
+}
+.words p{
+    font-size: 20px;
+    font-family: "futura_1tbold",sans-serif;
+    margin-left: 540px;
+    margin-bottom:35px;
+    color: #333;
+    font-weight: normal;
+    font-style: normal;
+    border-bottom: 4px solid #ffcb0f;
+    width: 200px;
+    margin-left: 550px;
+    padding: 10px;
+}
+.words button{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border: 1px solid blue;
+    padding: 15px;
+    margin-left: 540px;
+    font-weight: normal;
+    font-style: normal;
+}
+.words button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+#services{
+    width: auto;
+    height: auto;
+    margin-top: 300px;
+}
+.services h4{
+    font-family: "futura_1tbold",sans-serif;
+    font-size: 30px;
+    margin-left: 540px;
+    font-weight: normal;
+    font-style: normal;
+    color: #187cc2;
+}
+.services p{
+    font-family: "futura_1tbold",sans-serif;
+    margin-left: 350px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+.border{
+    border-bottom: 4px solid #ffcb0f;
+    width: 200px;
+    margin-left: 550px;
+    padding: 10px;
+}
+.services ul{
+    display: flex;
+}
+.services ul li{
+    width: 100px;
+    height: 100px;
+    background-color: #8cacea;
+    margin: 8px;
+}
+#tabili{
+    background: #ffcb0f none repeat scroll 0 0;
+    height: auto;
+    margin-top: 50px;
+}
+#tabili .table1 img{
+    margin-left: 70px;
+    float: center;
+}
+.table1 td{
+    box-shadow: 2px solid #d8d8d8;
+    height: auto;
+    font-size: 100px;
+    font-family: "futura_1tbold", sans-serif;
+    padding: 30px;
+}
+.table1 td:hover{
+    color: #000;
+    font-weight: bold;
+}
+.table1 button{
+    background: plain;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 6px 17px 4px;
+    margin-top: 10px;
+    margin-left: -10px;
+    font-family: "futura_1tbold",sans-serif;
+    color: #187cc2;
+}
+.table1 button:hover{
+    border: 1px solid #282828;
+    color: #aaa;
+}
+.table1 h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.table1 p{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#book{
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+}
+.border1{
+    border-bottom: 4px solid #ffcb0f;
+    width: 100px;
+    margin-left: 582px;
+    padding: 10px;
+    margin-top: -20px;
+}
+.book h4{
+    font-family: "futura_1tbold",sans-serif;
+    font-size: 30px;
+    margin-left: 540px;
+    font-weight: normal;
+    font-style: normal;
+    color: #187cc2;
+}
+.subscribe_section{
+    float: left;
+    width: 100%;
+    background: #121b23 url(images/signup-bg.jpg) no-repeat center top;
+    padding: 50px 0 50px 0;
+}
+.subscribe_section form{
+    display: table;
+    width: 415px;
+    margin: 0 auto 0 auto;
+}
+.subscribe_section form  input[type="text"],
+.subscribe_section form input[type="email"]{
+    float: left;
+    width: 270px;
+    height: 40px;
+    text-align: left;
+    font-family: 'open_sansregular';
+    font-size: 14px;
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 0 ;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    border-radius: 5px;
+    -webkit-border-radius:5px
+}
+.subscribe_section form  input[type="submit"]{
+    float: right;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-family: 'open_sansbold';
+    font-size: 14px;
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition:0.5s;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+.subscribe_section form input[type="submit"]:hover{
+    background: #187cc2;
+    border: 1px solid #187cc2 ;
+}
+.subscribe_section form input[type="text"]:focus,
+.subscribe_section form input[type="email"]:focus{
+    border: 1px solid #187cc2;
+}
+#footer{
+    height:auto
+}
+#footer .footer_bottom{
+    background: black;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.footer_bottom .wow{
+    font-family: "futura_1tbold,sans-serif";
+    padding: 20px;
+    font-size: 11px;
+    color: #aaa;
+}
+.footer_bottom .wow a{
+    text-decoration: none;
+}
+.footer_bottom .wow a:hover{
+    font-weight: bold;
+}
